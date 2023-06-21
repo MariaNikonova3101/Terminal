@@ -1,0 +1,60 @@
+1) Посмотреть где я      pwd
+
+2) Создать папку     mkdir Food
+
+3) Зайти в папку    cd d:/Traning/Food
+
+4) Создать 3 папки   mkdir -p {drinks,snacks,backery}
+
+5) Зайти в любоую папку cd
+
+6) Создать 5 файлов (3 txt, 2 json)  touch drinks.water.txt
+
+7) Создать 3 папки mkdir -p {drinks,snacks,backery}
+
+8. Вывести список содержимого папки ls -la
+
+9) + Открыть любой txt файл  cat snacks/nuts.txt
+
+10) + написать туда что-нибудь, любой текст  1)если это файл, который будет только создаваться  cat snacks/nuts.txt
+
+2) если добавляем инфу в уже существующий файл(в конец списка)  cat >> snacks/nuts.txt 
+
+11) + сохранить и выйти    ctrl+c
+
+12) Выйти из папки на уровень выше cd ..
+
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+mv snacks/cakes.txt backery/cakes.txt
+mv snacks/juice.txt drinks/juice.txt
+
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку
+cp backery/another.txt snacks/another.txt
+cp drinks/vegan.txt snacks/vegan.txt
+
+15) Найти файл по имени     find -name bread.json
+find . -name "*.txt"
+
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. /поиск файлов и фильтрации вывода команд/
+ grep egg backery/cakes.txt (поиск слова egg по тексту)
+
+17) вывести несколько первых строк из текстового файла
+head backery/cakes.txt
+
+18) вывести несколько последних строк из текстового файла
+tail backery/cakes.txt
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+less backery/cakes.txt (выход q)
+
+20) вывести дату и время
+date
+
+Addition
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir foldername
+3) Зайти в папку - cd foldername
+
+ctrl+c выйти из режима редактирования
+rm -r mess удалить дерикторию (-r  указывать обязательно, иначе ошибка)
